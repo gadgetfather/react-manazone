@@ -66,16 +66,13 @@
   }
 }
 
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1100px) {
   /* cart items */
-  .main-content_cart .cart-total {
-    width: 30%;
-    position: absolute;
-    align-self: flex-end;
-  }
+
   .main-content_cart .cart-item {
-    width: 55%;
+    width: 50%;
     align-self: flex-start;
+    margin-left: 1%;
   }
   .main-content_cart .cart-item .img-box {
     width: 28rem;
