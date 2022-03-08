@@ -1,4 +1,5 @@
 import React from "react";
+import "./productPage.css";
 import Aside from "../../components/Aside";
 import ProductGrid from "../../components/ProductGrid";
 
