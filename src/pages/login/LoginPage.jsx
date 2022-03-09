@@ -3,7 +3,7 @@ import "./loginPage.css";
 export default function LoginPage() {
   return (
     <main class="main-content_login">
-      <div class="login-container">
+      <div class="form-container">
         <h1>Login</h1>
         <label for="username">Email address:</label>
         <input class="block-inputs" placeholder="jack@gmail.com" type="text" />
@@ -18,7 +18,7 @@ export default function LoginPage() {
         <a class="btn-login btn btn-primary" href="#">
           Login
         </a>
-        <a class="btn-sign-up" href="/signup-page/signup.html">
+        <a class="btn-submit-secondary" href="/signup-page/signup.html">
           Create New Account <i class="fas fa-chevron-right"></i>
         </a>
       </div>

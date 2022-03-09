@@ -7,7 +7,7 @@
 }
 
 /* login container */
-.login-container {
+.form-container {
   display: flex;
   flex-direction: column;
   padding: 3rem 4rem;
@@ -16,10 +16,10 @@
   background-color: var(--white);
   color: var(--primary-color);
 }
-.login-container a {
+.form-container a {
   text-decoration: none;
 }
-.login-container .block-inputs {
+.form-container .block-inputs {
   display: block;
   border-radius: var(--br-small);
   padding: 5px 2px;
@@ -40,7 +40,7 @@
 .btn-login {
   text-align: center;
 }
-.login-container .btn-login {
+.form-container .btn-login {
   padding: 8px 0;
 }
 /* sign up btn*/
@@ -54,17 +54,17 @@
 /* media queries */
 
 @media screen and (min-width: 600px) {
-  .login-container {
+  .form-container {
     width: 24rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .login-container {
+  .form-container {
     width: 29rem;
   }
 
-  .login-container .block-inputs {
+  .form-container .block-inputs {
     display: block;
     border-radius: var(--br-small);
     padding: 12px 2px;
