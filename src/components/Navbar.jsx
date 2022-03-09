@@ -1,9 +1,25 @@
 import React from "react";
+import { useTheme } from "../context/themeContext";
 
 export default function Navbar() {
+  const { theme, setTheme } = useTheme();
+
+  const handleDarkMode = () => {
+    if (theme) {
+      setTheme(false);
+      document.body.style.backgroundColor = "rgb(28, 27, 27)";
+    } else {
+      setTheme(true);
+      document.body.style.backgroundColor = "#fff";
+    }
+  };
   return (
     <nav>
-      <div class="navbar">
+      <div
+        className={
+          theme ? "navbar light-theme__navbar" : "navbar dark-theme__navbar"
+        }
+      >
         <a class="brand-name" href="/index.html">
           <h1>Manazone</h1>
         </a>
@@ -24,6 +40,9 @@ export default function Navbar() {
             <i class="fas fa-heart"></i>
             <span class="icon-badge">0</span>
           </a>
+          <button onClick={handleDarkMode} class="icon-container">
+            <i class={theme ? "fas fa-sun" : "fas fa-moon"}></i>
+          </button>
         </div>
       </div>
       <div class="search-bar">
