@@ -15,7 +15,9 @@ aside .btn {
   display: flex;
   align-items: center;
 }
-
+aside label {
+  margin-left: 5px;
+}
 /* filter buttons */
 .filter-buttons {
   position: fixed;
