@@ -36,14 +36,19 @@
 
 .navbar a {
   text-decoration: none;
-  color: var(--primary-color);
+  cursor: pointer;
 }
 .navbar a h1 {
   display: inline;
   margin-left: var(--spacing3);
   padding: 1rem 0.5rem 1rem 0;
 }
-
+.navbar button {
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
 .action-icons {
   display: flex;
   margin-left: auto;
@@ -116,4 +121,15 @@
   .search-bar-desktop input:focus {
     outline: none;
   }
+}
+
+/* theme */
+.dark-theme__navbar a {
+  color: var(--brand-name__dark-theme);
+}
+.dark-theme__navbar button {
+  color: var(--brand-name__dark-theme);
+}
+.light-theme__navbar a {
+  color: var(--primary-color);
 }
