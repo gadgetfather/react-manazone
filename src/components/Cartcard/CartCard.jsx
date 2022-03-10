@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/cartCard.css";
-export default function CartCard() {
+import "./CartCard.css";
+export function CartCard() {
   return (
     <div class="cart-item card-container card-shadow">
       <div class="img-box">

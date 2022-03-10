@@ -1,9 +1,12 @@
 import React from "react";
-import "./homePage.css";
-import HeroSection from "../../components/HeroSection";
-import CategoriesCard from "../../components/CategoriesCard";
-import PromotionalCard from "../../components/PromotionalCard";
-export default function HomePage() {
+import "./HomePage.css";
+import {
+  HeroSection,
+  CategoriesCard,
+  PromotionalCard,
+} from "../../components/index";
+
+export function HomePage() {
   return (
     <main class="main-content__home">
       <HeroSection />

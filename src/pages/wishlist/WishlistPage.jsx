@@ -1,7 +1,7 @@
 import React from "react";
-import ProductGrid from "../../components/ProductGrid";
-import "./wishlistPage.css";
-export default function WishlistPage() {
+import { ProductGrid } from "../../components/index";
+import "./WishlistPage.css";
+export function WishlistPage() {
   return (
     <main class="main-content">
       <h1 class="page-title">My Wishlist</h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css";
 import { useTheme } from "../context/themeContext";
 
 export default function Navbar() {

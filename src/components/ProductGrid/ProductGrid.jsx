@@ -1,5 +1,6 @@
 import React from "react";
-import ProductCard from "./ProductCard";
+import { ProductCard } from "../index";
+import "./ProductGrid.css";
 
 export default function ProductGrid() {
   return (

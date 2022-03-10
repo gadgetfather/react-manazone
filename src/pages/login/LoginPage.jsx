@@ -1,6 +1,6 @@
 import React from "react";
-import "./loginPage.css";
-export default function LoginPage() {
+import "./LoginPage.css";
+export function LoginPage() {
   return (
     <main class="main-content_login">
       <div class="form-container">

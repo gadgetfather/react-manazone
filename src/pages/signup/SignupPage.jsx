@@ -1,7 +1,7 @@
 import React from "react";
-import "./signupPage.css";
+import "./SignupPage.css";
 
-export default function SignupPage() {
+export function SignupPage() {
   return (
     <main class="main-content_signup">
       <div class="form-container">

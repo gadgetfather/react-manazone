@@ -1,6 +1,6 @@
 import React from "react";
-import heroImg from "../assets/images/hero-banner.jfif";
-
+import heroImg from "../../assets/images/hero-banner.jfif";
+import "./HeroSection.css";
 export default function HeroSection() {
   return (
     <div class="hero-img">

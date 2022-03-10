@@ -1,9 +1,8 @@
 import React from "react";
-import "./productPage.css";
-import Aside from "../../components/Aside";
-import ProductGrid from "../../components/ProductGrid";
+import "./ProductPage.css";
+import { Aside, ProductGrid } from "../../components/index";
 
-export default function ProductPage() {
+export function ProductPage() {
   return (
     <main class="main-content_product">
       <Aside />

@@ -1,7 +1,7 @@
 import React from "react";
-import CartCard from "../../components/CartCard";
-import "./cartPage.css";
-export default function CartPage() {
+import { CartCard } from "../../components/index";
+import "./CartPage.css";
+export function CartPage() {
   return (
     <main className="main-content_cart">
       <div class="cart-total card-container card-shadow">

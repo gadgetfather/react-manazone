@@ -1,6 +1,6 @@
 import React from "react";
-
-export default function AsidePC() {
+import "./Aside.css";
+export function Aside() {
   return (
     <>
       <aside>
