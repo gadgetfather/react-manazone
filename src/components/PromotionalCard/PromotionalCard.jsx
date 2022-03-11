@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PromotionalCard() {
+export function PromotionalCard() {
   return (
     <div class="card-container card-vertical card-shadow">
       <div class="product-img-box">

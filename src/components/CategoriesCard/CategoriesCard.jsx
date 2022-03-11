@@ -1,6 +1,8 @@
 import React from "react";
+import { useRouter } from "../../context/routerContext";
 
-export default function CategoriesCard() {
+export function CategoriesCard() {
+  const { setPage } = useRouter();
   return (
     <div class="card-container card-vertical card-shadow">
       <div class="product-img-box">
@@ -11,7 +13,11 @@ export default function CategoriesCard() {
         />
       </div>
       <h1 class="card-title">Action</h1>
-      <a class="btn btn-primary" href="/product-page/">
+      <a
+        onClick={() => setPage("product")}
+        class="btn btn-primary"
+        // href="/product-page/"
+      >
         Explore <i class="fas fa-chevron-right"></i>
       </a>
     </div>

@@ -1,6 +1,8 @@
 import React from "react";
+import { useRouter } from "../../context/routerContext";
 import "./LoginPage.css";
 export function LoginPage() {
+  const { setPage } = useRouter();
   return (
     <main class="main-content_login">
       <div class="form-container">
@@ -18,7 +20,11 @@ export function LoginPage() {
         <a class="btn-login btn btn-primary" href="#">
           Login
         </a>
-        <a class="btn-submit-secondary" href="/signup-page/signup.html">
+        <a
+          class="btn-submit-secondary"
+          onClick={() => setPage("signup")}
+          // href="/signup-page/signup.html"
+        >
           Create New Account <i class="fas fa-chevron-right"></i>
         </a>
       </div>

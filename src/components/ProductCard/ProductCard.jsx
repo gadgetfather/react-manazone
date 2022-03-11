@@ -1,6 +1,6 @@
 import React from "react";
-import "./ProductCard";
-export default function ProductCard() {
+import "./ProductCard.css";
+export function ProductCard() {
   return (
     <div class="card-container product-card">
       <div class="img-container">
