@@ -3,12 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { ThemeProvider } from "./context/themeContext";
+import { RouterProvider } from "./context/routerContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <RouterProvider>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </RouterProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
