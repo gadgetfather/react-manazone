@@ -1,8 +1,8 @@
-export { Aside } from "./Aside";
-export { CartCard } from "./Cartcard";
-export { CategoriesCard } from "./CategoriesCard";
-export { HeroSection } from "./HeroSection";
-export { Navbar } from "./Navbar";
-export { ProductCard } from "./ProductCard";
-export { ProductGrid } from "./ProductGrid";
-export { PromotionalCard } from "./PromotionalCard";
+export { Aside } from "./Aside/Aside";
+export { CartCard } from "./Cartcard/CartCard";
+export { CategoriesCard } from "./CategoriesCard/CategoriesCard";
+export { HeroSection } from "./HeroSection/HeroSection";
+export { Navbar } from "./Navbar/Navbar";
+export { ProductCard } from "./ProductCard/ProductCard";
+export { ProductGrid } from "./ProductGrid/ProductGrid";
+export { PromotionalCard } from "./PromotionalCard/PromotionalCard";
